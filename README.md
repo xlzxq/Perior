@@ -13,3 +13,5 @@ An advanced open-source Discord Bot made with DBScript. [Invite me!](https://dis
 
 ## Known Bugs
  - Some moderation commands may not work properly when not used properly
+ - No slash commands
+ - DBScript is discontinued
