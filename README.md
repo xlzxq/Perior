@@ -11,27 +11,18 @@ An advanced open-source Discord Bot made with DBScript. [Invite me!](https://dis
 ![Economic commands](https://cdn.discordapp.com/attachments/972803542744170527/1042107003234955324/image.png)
 ![More generic use](https://cdn.discordapp.com/attachments/972803542744170527/1042107003578875944/image.png)
 
-## Known Bugs
- - Some moderation commands may not work properly when not used properly
- - No slash commands
- - DBScript is discontinued
-
 ## Run Locally
-
 1. Clone the repository
-
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/xlzxq/Perior
 ```
 
 2. Install dependencies
-
 ```bash
   npm install
 ```
 
 3. Paste in token (index.js | line 6)
-
 ```bash
   token: "YOUR_TOKEN",
 ```
@@ -43,7 +34,15 @@ An advanced open-source Discord Bot made with DBScript. [Invite me!](https://dis
 ```
 
 5. Start the bot
-
 ```bash
   node index.js
 ```
+
+# Bugfixes
+Due to DBScript being discontinued, you need to edit some files in the api in order for this bot to work fully.
+
+## NSFW Bugfix
+Go to discordbot-script/package/functions/onlyNSFW.js and change line 12 and 35 to `if (message.channel.nsfw === false)`
+The class should look something like this:
+
+![Bugfix](https://cdn.discordapp.com/attachments/972803542744170527/1042167896559853670/image.png)
