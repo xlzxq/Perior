@@ -2,7 +2,7 @@
 An advanced open-source Discord Bot made with DBScript. [Invite me!](https://discord.com/oauth2/authorize?client_id=972441096435163146&scope=bot&permissions=1072935854023)
 
 ## Features
-- 30 Commands
+- 35 Commands
 - Economy Commands
 - Easy to setup
 
