@@ -42,7 +42,10 @@ An advanced open-source Discord Bot made with DBScript. [Invite me!](https://dis
 Due to DBScript being discontinued, you need to edit some files in the api in order for this bot to work fully.
 
 ## NSFW Bugfix
-Go to discordbot-script/package/functions/onlyNSFW.js and change line 12 and 35 to `if (message.channel.nsfw === false)`
+Go to node_modules/discordbot-script/package/functions/onlyNSFW.js and change line 12 and 35 to `if (message.channel.nsfw === false)`
 The class should look something like this:
 
 ![Bugfix](https://cdn.discordapp.com/attachments/972803542744170527/1042167896559853670/image.png)
+
+## Args Bugfix
+Go to node_modules/discordbot-script/package/functions/argsCheck.js and change line 28 to `if (args[n - 1] === undefined || args[n - 1] === "") cond = false`
