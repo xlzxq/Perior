@@ -1,5 +1,5 @@
 # Perior Bot
-An advanced open-source Discord Bot made with DBScript. [Invite me!](https://discord.com/oauth2/authorize?client_id=972441096435163146&scope=bot&permissions=1072935854023)
+An advanced open-source Discord Bot made with DBScript. ~~[Invite me!](https://discord.com/oauth2/authorize?client_id=972441096435163146&scope=bot&permissions=1072935854023)~~ Discontinued for the time being.
 
 ## Features
 - 35 Commands
